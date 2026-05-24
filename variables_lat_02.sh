@@ -5,3 +5,6 @@ echo "Number of variables passed : $#"
 echo "script name:$0"
 echo "who is running this : $USER"
 echo "which director :$PWD"
+sleep 5 &
+wait $ !
+echo "script executed in $seconds seconds"
