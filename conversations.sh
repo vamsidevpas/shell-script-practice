@@ -1,6 +1,6 @@
 #!/bin/bash
-person1=wife
-person2=Husband
+person1=pakistan
+person2=Bangladesh
 
 echo "$person1: Today will go and buy gold today"
 echo "$person2: lets go and check "
