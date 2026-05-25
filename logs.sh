@@ -4,6 +4,7 @@
 
 USERID=$(id -u)
 LOGS_DIR=/var/log/shell-script
+mkdir -p $LOGS_DIR   # <-- add this line
 LOGS_FILE="$LOGS_DIR/$0.log" # /home/ec2-user/shell-logs/10-logs.sh.log
 
 # Check root access or not
